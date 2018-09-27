@@ -386,16 +386,6 @@
   display: inline;
   list-style-type: none;
 }
-<<<<<<< HEAD
-.social i {
-  font-size: 270%;
-  margin: 1% 5% 7% 4%;
-  color: #008080;
-}
-.social i:hover {
-  color: #800000;
-}
-=======
 
 .soMeAnchor{
     text-decoration: none;
@@ -407,19 +397,15 @@
   color: #ffffff;
   display: inline;
 }
->>>>>>> 36c91d5acfbf7ff27a87320410f08f5b0e94b8b2
 
 /*NAV SLUT*/
 
 /*FOOTER START*/
-<<<<<<< HEAD
-=======
 
 .footerColumn{
     float: left;
     width: 33.33%;
 }
->>>>>>> 36c91d5acfbf7ff27a87320410f08f5b0e94b8b2
 
 #googleMap{
     width: 225px;
