@@ -57,7 +57,7 @@
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-  
+
 
   /* The dots/bullets/indicators */
 .dot {
@@ -70,11 +70,11 @@
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
+
   .active, .dot:hover {
     background-color: #ee7e32;
   }
-  
+
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
@@ -84,14 +84,14 @@
     animation-timing-function: ease-in-out;
     animation-direction: forward;
   }
-  
+
   @-webkit-keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .4}
     to {opacity: 1}
   }
-  
+
   @keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .4}
     to {opacity: 1}
   }
 
@@ -152,7 +152,7 @@
     width: 500px;
     height: 375px;
     display:block;
-    margin: auto;   
+    margin: auto;
 }
 
 #tendoTeam{
@@ -335,8 +335,8 @@
   background-color: #99D2DE;
   overflow: hidden;
   display: block;
-	position: fixed;
-	width: 100%;
+  position: fixed;
+  width: 100%;
 }
 
 	/* Style the links inside the navigation bar */
@@ -344,19 +344,19 @@
   color: #ffffff;
   font-family: 'Poppins';
   text-align: center;
-  padding: 7px;
+  padding: 5px;
   text-decoration: none;
   font-size: 22px;
   margin-right: 20px;
-  float: right;
   margin-top: 120px;
 }
 
 	/* */
 .menubox {
-  float: right;
+    float: right;
 	padding-bottom: 20px;
-	padding-right: 20px;
+    padding-right: 20px;
+    margin-top: 120px;
 }
 
 /* Change background on mouse-over */
@@ -375,7 +375,6 @@
   margin: 20px;
 }
 
-
 .social {
   list-style-type: none;
   text-align: center;
@@ -384,13 +383,16 @@
   display: inline;
   list-style-type: none;
 }
+
 .social i {
-  font-size: 270%;
-  margin: 1% 5% 7% 4%;
-  color: #008080;
+  font-size: 200%;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: #ffffff;
+  display: inline;
 }
 .social i:hover {
-  color: #800000;
+  color: none;
 }
 
 /*NAV SLUT*/
@@ -539,9 +541,3 @@
     top: 30%;
     left: 74.5em;
 }
-
-
-
-
-
-
