@@ -1,4 +1,4 @@
-<!doctype <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -11,33 +11,234 @@
 </head>
 <body>
 
-    <section id="whatsTendo">
+    <div class="wrapper"></div>
+
+    <!-- Banner --> 
+    
+    <section class="pages">
+            <div class="contentwrapper">
+        <div id="slideshow-container"><!--Slideshow container start-->
+                <!-- Full-width images with number and caption text -->
+                <div class="myImages fade">
+                    <img class="caroImage" src="images/grabGlass.png" alt="Grabbing Glass">
+                </div>
+
+                <div class="myImages fade">
+                    <img class="caroImage" src="images/mousePic.png" alt="Grabbing Computer Mouse">
+                </div>
+
+                <div class="myImages fade">
+                    <img class="caroImage" src="images/grabBottle.png" alt="Grabbing Bottle">
+                </div>
+            </div>        
+
+            <!-- The dots/circles -->
+            <div class="dot-container">
+                <span class="dot" onclick=currentSlide(1)></span> 
+                <span class="dot" onclick=currentSlide(2)></span> 
+                <span class="dot" onclick=currentSlide(3)></span> 
+            </div>
+        </div>        
+    </section>
+
+    <!-- What is Tendo -->
+
+    <section class="pages" id="whatsTendo">
+        <div class="contentwrapper"></div>
             <h1>What is Tendo?</h1>
+                <div class="row">
+                    <div class="column">
+                        <p>
+                            Tendo is a soft robotic exoskeleton.
+                            Imagine a robotic glove, which strengthens your grip. 
+                            It covers the thumb, index finger and forearm and it’s 
+                            equipped with soft artificial tendons and smart sensors 
+                            detecting when you are about to grasp an object and applies 
+                            the requested strength to your fingers. That way it gets easier
+                            and easier to use it.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p>
+                            Tendo creates greater independence for people suffering 
+                            from limitations due to e.g. arthritis, an injury, 
+                            stroke or age and results in an improved self-image and 
+                            quality of life as well as a reduced need of assistance 
+                            from the community and family. Tendo is worn almost like 
+                            a glove and enables a strong grip in more or less all everyday situations.
+                        </p>
+                    </div>
+                </div>
+            <img src="images/pinchIcon.png" alt="Pinching Icon">
+        </div>
+    </section>
+
+    <!-- Youtube and reviews -->
+    
+    <section class="pages" id="youtube-reviews">
+        <div class="contentwrapper">
             <div class="row">
                 <div class="column">
-                    <p>
-                        Tendo is a soft robotic exoskeleton.
-                        Imagine a robotic glove, which strengthens your grip. 
-                        It covers the thumb, index finger and forearm and it’s 
-                        equipped with soft artificial tendons and smart sensors 
-                        detecting when you are about to grasp an object and applies 
-                        the requested strength to your fingers. That way it gets easier
-                        and easier to use it.
+                    <h2>Tendo on YouTube</h2>
+                    <div class="media-wrapper">
+                    <iframe id="youtubeVid" src="https://www.youtube.com/embed/ooDzTErR3iI?rel=0" 
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                    </iframe>
+                    <p id="youtube-desc">
+                        Tendo has its own YouTube channel where we post new videos
+                        continuously for your benefit. On this channel you can follow
+                        our ongoing development. The videoe content will be consisting of
+                        subjects like how Tendo is made and how to use in an everyday context.
                     </p>
+                    </div>
                 </div>
                 <div class="column">
+                    <h2>Reviews of Tendo</h2>
+                    <div class="media-wrapper">
+                        <div id="slideshow-container2"><!--Slideshow container start-->
+                            <div class="reviews fade">
+                            <img class="review" src="images/ChristianBrandt.jpeg" alt="Christian Brandt Review">
+                            <figcaption class="review-caption">Christian Brandt, 28 (DK) - On sick leave</figcaption>
+                            <p class="review-desc">
+                                Christian was in an accident 5 years ago, in which he
+                                lost feasibility in his hands. Tendo has helped him 
+                                regain independency in his daily actions.     
+                            </p>
+                            </div>
+                            <div class="reviews fade">
+                            <img class="review" src="images/GitteHansen.jpeg" alt="Gitte Hansen Review">
+                            <figcaption class="review-caption">Gitte Hansen, 50 (DK) - Early Retiree</figcaption>
+                            <p class="review-desc">
+                                Gitte has been suffering from Arthritis for 15 years. Before using Tendo
+                                she felt like a 50-year old woman trapped in an 80-year old body.
+                                Now she can write letters again - without pain.     
+                            </p>
+                            </div>
+                            <div class="reviews fade">
+                            <img class="review" src="images/PatriciaRamírez.jpeg" alt="Patricia Ramírez Review">
+                            <figcaption class="review-caption">Patricia Ramírez, 34 (DK) - Marketing Management</figcaption>
+                            <p class="review-desc">
+                                 As a teeanger Patrica suffered a stroke, which took all feasibility from the left side
+                                 of her body. Rehabilitation with Tendo has given her most of it back. 
+                            </p>
+                            </div>
+                        </div><!--Slideshow-container end-->
+                        <!-- The dots/circles -->
+                        <div class="dot-container">
+                            <span class="dot" onclick=currentSlide(1)></span> 
+                            <span class="dot" onclick=currentSlide(2)></span> 
+                            <span class="dot" onclick=currentSlide(3)></span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+<!-- How to get it -->
+<section class="pages" id="howtogetit">
+    <div class="contentwrapper">
+        <h1>How to get it</h1>
+        <div class="row">
+            <div class="column">
+                <div class="box">
                     <p>
-                        Tendo creates greater independence for people suffering 
-                        from limitations due to e.g. arthritis, an injury, 
-                        stroke or age and results in an improved self-image and 
-                        quality of life as well as a reduced need of assistance 
-                        from the community and family. Tendo is worn almost like 
-                        a glove and enables a strong grip in more or less all everyday situations.
+                        Tendo has teamed up with hospitals all over the country.
+                        Please be free to ask your doctor – you are also welcome
+                        to give us a call or write us an e-mail and we will be 
+                        happy to answer all of your questions. You will see our 
+                        contact information in the bottom. 
                     </p>
                 </div>
             </div>
-            <img src="images/pinchIcon.png" alt="Pinching Icon">
-    </section>
+            <div class="column">
+                <img class="img" src="images/robotinhand.jpg" alt="Robot in hand">
+            </div>
+        </div>
+        <img class="icon" src="images/roboticon.png" alt="Robot Icon">
+    </div>
+</section>
+    
+<!-- About us -->
+<section class="pages" id="tendoTeam">
+    <div class="contentwrapper">
+        <div class="row">
+            <div class="column">
+                <img src="images/tendoTeam.png" alt="Team behind Tendo">
+            </div>
+            <div class="column">
+                <h2>About us</h2>
+                <p>
+                    The strong team behind Tendo works with great passion 
+                    and has broad competence within the field. 
+                    Even though Tendo is a newly established company, 
+                    a wide network has already been established and 
+                    the development is/has been supported by e.g. NASA (Houston) and 
+                    Ideon in Lund. They are currently located
+                    in Odense, as a part of the Odense Robotics.
+                </p>
+            </div>
+        </div>
+        <img class="icon" src="images/hearticon.png" alt="Heart Icon">
+    </div>
+</section>
 
+
+<!-- JS til slideshow-->
+<script>
+        //Run automatic slideshow
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            console.log("Test1");
+            var i;
+            var slides = document.getElementsByClassName("myImages");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+
+            console.log("Test2");
+        }
+
+</script>
+
+<!-- JS til reviews -->
+
+<script>
+        //Run automatic slideshow
+        var slideIndex = 0;
+        showReviews();
+
+        function showReviews() {
+            console.log("Test1");
+            var i;
+            var slides = document.getElementsByClassName("reviews")
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 10000); // Change image every 10 seconds
+
+            console.log("Test2");
+        }
+
+</script>
 </body>
 </html>

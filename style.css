@@ -8,14 +8,24 @@
     padding: 0;
 }
 
+.pages{
+    min-height: 100vh;
+    width: 100%;
+}  
+
+.contentwrapper{
+    width: 1224px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 50px;
+}
 
 /*************PICTURE CAROUSEL****************/
 
 .caroImage{
     width: 100vw;
     height: 93vh;
-    margin: auto;
-    position: absolute;
 }
 
 .dot-container{
@@ -27,8 +37,6 @@
 #slideshow-container {
   width: 100vw;
   height: 95vh;
-  position: relative;
-  margin: auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -223,7 +231,57 @@
     display: none;
 }
 
+/*********HOW TO GET IT*********/
 
+#howtogetit h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+#howtogetit p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    width: 300px;
+    margin: auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#howtogetit .box{
+    width: 500px;
+    height: 375px;
+}
+#howtogetit .img{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+#howtogetit .icon{
+    margin: auto;
+    display: block;
+    opacity: 0.35;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .column {
+        float: left;
+        width: 50%;
+        padding-bottom: 0px;
+    }
+    #howtogetit p{
+        font-size: 1.2em;
+        width: 500px;
+    }
+}
 
 
 
@@ -262,64 +320,7 @@
 
 }
 
-/*********HOW TO GET IT*********/
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.column {
-    width: 100vw;
-    padding-bottom: 10px;
-}
-
-#howtogetit h1{
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 4em;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 40px;
-}
-
-#howtogetit p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 4em;
-    width: 300px;
-    margin: auto;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-#howtogetit .img{
-    width: 500px;
-    height: 375px;
-    margin: auto;
-    display: block;
-}
-
-#howtogetit .icon{
-    margin: auto;
-    display: block;
-    opacity: 0,35;
-}
-
-
-
-@media screen and (min-width: 768px) {
-    .column {
-        float: left;
-        width: 50%;
-        padding-bottom: 0px;
-    }
-    #howtogetit p{
-        font-size: 1.2em;
-        width: 500px;
-    }
-}
 
 
 
@@ -395,10 +396,6 @@
 /*NAV SLUT*/
 
 /*FOOTER START*/
-.column {
-    float: left;
-    width: 33%;
-}
 
 .columnmap {
   float: left;
