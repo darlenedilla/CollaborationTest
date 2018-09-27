@@ -355,6 +355,7 @@
     float: right;
 	padding-bottom: 20px;
     padding-right: 20px;
+    margin-top: 120px;
 }
 
 /* Change background on mouse-over */
@@ -373,7 +374,6 @@
   margin: 20px;
 }
 
-
 .social {
   list-style-type: none;
   text-align: center;
@@ -383,9 +383,11 @@
   list-style-type: none;
 }
 .social i {
-  font-size: 270%;
-  margin: 1% 5% 7% 4%;
-  color: #008080;
+  font-size: 200%;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: #ffffff;
+  display: inline;
 }
 .social i:hover {
   color: #;
