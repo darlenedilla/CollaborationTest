@@ -1,5 +1,329 @@
-iframe{
-    width: 150;
-    height: 100; 
-    border: 0;
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Poppins:300');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
+/*************PICTURE CAROUSEL****************/
+
+.caroImage{
+    width: 100vw;
+    height: 93vh;
+    margin: auto;
+    position: absolute;
+}
+
+.dot-container{
+    text-align: center;
+}
+
+
+/* Slideshow container */
+#slideshow-container {
+  width: 100vw;
+  height: 95vh;
+  position: relative;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .caroImage{
+        height: 50vh;
+    }
+    #slideshow-container{
+        height: 50vh;
+    }
+  }
+
+/* Hide the images by default */
+.myImages {
+    display: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 18px 2px 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #ee7e32;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: forward;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+
+  /*************WHAT IS TENDO?****************/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    width: 100vw;
+    padding-bottom: 10px;
+}
+
+#whatsTendo h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+#whatsTendo p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    width: 300px;
+    margin:auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#whatsTendo img{
+    margin: auto;
+    display: block;
+    opacity: 0.35;
+}
+
+
+
+/**********About us*************/
+
+
+#tendoTeam h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#tendoTeam img{
+    width: 500px;
+    height: 375px;
+    display:block;
+    margin: auto;   
+}
+
+#tendoTeam{
+    margin-top: 150px;
+}
+
+#tendoTeam p{
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin:auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+
+
+/********YOUTUBE OG REVIEWS**********/
+
+#youtube-reviews h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.review, #youtubeVid{
+    width: 310px;
+    height: 170px;
+    margin: auto;
+    display: block;
+    padding: 12px;
+}
+
+.media-wrapper{
+    border: solid 1px #707070;
+    height: 300px;
+    width: 310px;
+    margin: auto;
+    display: block;
+}
+
+#youtube-desc, .review-desc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.6;
+    width: 310px;
+    padding: 8px;
+}
+
+
+
+.review-caption{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    padding: 12px;
+}
+
+#slideshow-container2{
+    width: 500px;
+    height: 452px;
+    position: relative;
+    margin: auto;
+  }
+
+
+.reviews{
+    display: none;
+}
+
+
+
+
+
+/*******MEDIA QUERIES*******/
+
+@media screen and (min-width: 768px) {
+    .column {
+        float: left;
+        width: 50%;
+        padding-bottom: 0px;
+    }
+
+    #whatsTendo p{
+        font-size: 1.2em;
+        width: 500px;
+    }
+
+    #tendoTeam p{
+        font-size: 1.2em;
+        width: 500px;
+    }
+
+    .review, #youtubeVid{
+        width: 500px;
+        height: 300px;
+    }
+
+    .media-wrapper{
+        width: 500px;
+        height: 500px;
+    }
+
+    #youtube-desc, .review-desc{
+        width: 500px;
+    }
+
+}
+
+/* HOW TO GET IT */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    width: 100vw;
+    padding-bottom: 10px;
+}
+
+#howtogetit h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+#howtogetit p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    width: 300px;
+    margin: auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#howtogetit .img{
+    width: 500px;
+    height: 375px;
+    margin: auto;
+    display: block;
+}
+
+#howtogetit .icon{
+    margin: auto;
+    display: block;
+    opacity: 0,35;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .column {
+        float: left;
+        width: 50%;
+        padding-bottom: 0px;
+    }
+    #howtogetit p{
+        font-size: 1.2em;
+        width: 500px;
+    }
+}
+
+
+
+
+
+
+
