@@ -57,7 +57,7 @@
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-
+  
 
   /* The dots/bullets/indicators */
 .dot {
@@ -70,11 +70,11 @@
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-
+  
   .active, .dot:hover {
     background-color: #ee7e32;
   }
-
+  
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
@@ -84,14 +84,14 @@
     animation-timing-function: ease-in-out;
     animation-direction: forward;
   }
-
+  
   @-webkit-keyframes fade {
-    from {opacity: .4}
+    from {opacity: .4} 
     to {opacity: 1}
   }
-
+  
   @keyframes fade {
-    from {opacity: .4}
+    from {opacity: .4} 
     to {opacity: 1}
   }
 
@@ -134,43 +134,6 @@
     display: block;
     opacity: 0.35;
 }
-
-
-
-/**********About us*************/
-
-
-#tendoTeam h2{
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 4em;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-#tendoTeam img{
-    width: 500px;
-    height: 375px;
-    display:block;
-    margin: auto;
-}
-
-#tendoTeam{
-    margin-top: 150px;
-}
-
-#tendoTeam p{
-    width: 300px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 1em;
-    margin:auto;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-
-
 
 /********YOUTUBE OG REVIEWS**********/
 
@@ -269,8 +232,6 @@
     opacity: 0.35;
 }
 
-
-
 @media screen and (min-width: 768px) {
     .column {
         float: left;
@@ -281,6 +242,47 @@
         font-size: 1.2em;
         width: 500px;
     }
+}
+
+/**********About us*************/
+
+
+#tendoTeam h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#tendoTeam img{
+    width: 500px;
+    height: 375px;
+    display:block;
+    margin: auto;   
+}
+
+#tendoTeam{
+    margin-top: 150px;
+}
+
+#tendoTeam p{
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin:auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#tendoTeam .icon{
+    width: 180px;
+    height: 190px;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+    opacity: 0.35;
 }
 
 
@@ -320,12 +322,6 @@
 
 }
 
-
-
-
-
-
-
 /********HEADER OG FOOTER*********/
 
 
@@ -335,8 +331,8 @@
   background-color: #99D2DE;
   overflow: hidden;
   display: block;
-  position: fixed;
-  width: 100%;
+	position: fixed;
+	width: 100%;
 }
 
 	/* Style the links inside the navigation bar */
@@ -344,19 +340,19 @@
   color: #ffffff;
   font-family: 'Poppins';
   text-align: center;
-  padding: 5px;
+  padding: 7px;
   text-decoration: none;
   font-size: 22px;
   margin-right: 20px;
+  float: right;
   margin-top: 120px;
 }
 
 	/* */
 .menubox {
-    float: right;
+  float: right;
 	padding-bottom: 20px;
-    padding-right: 20px;
-    margin-top: 120px;
+	padding-right: 20px;
 }
 
 /* Change background on mouse-over */
@@ -375,6 +371,7 @@
   margin: 20px;
 }
 
+
 .social {
   list-style-type: none;
   text-align: center;
@@ -383,16 +380,13 @@
   display: inline;
   list-style-type: none;
 }
-
 .social i {
-  font-size: 200%;
-  margin-top: 20px;
-  margin-right: 20px;
-  color: #ffffff;
-  display: inline;
+  font-size: 270%;
+  margin: 1% 5% 7% 4%;
+  color: #008080;
 }
 .social i:hover {
-  color: none;
+  color: #800000;
 }
 
 /*NAV SLUT*/
@@ -541,3 +535,9 @@
     top: 30%;
     left: 74.5em;
 }
+
+
+
+
+
+
