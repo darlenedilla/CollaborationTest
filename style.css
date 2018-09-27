@@ -343,7 +343,7 @@
   color: #ffffff;
   font-family: 'Poppins';
   text-align: center;
-  padding: 7px;
+  padding: 5px;
   text-decoration: none;
   font-size: 22px;
   margin-right: 20px;
@@ -382,6 +382,7 @@
   display: inline;
   list-style-type: none;
 }
+
 .social i {
   font-size: 200%;
   margin-top: 20px;
@@ -390,7 +391,7 @@
   display: inline;
 }
 .social i:hover {
-  color: #;
+  color: none;
 }
 
 /*NAV SLUT*/
