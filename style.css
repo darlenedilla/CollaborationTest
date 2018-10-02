@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Poppins:300');
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+body, html{
+    height: 100%;
+}
+
+.parallax{
+    background-image: url("robotinhand.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Wrapper */
 .headerwrapper{
     width: 100%;
@@ -119,15 +136,6 @@
 
   /*************WHAT IS TENDO?****************/
 
-#whatsTendo {
-    background: #707070;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
 .row:after {
     content: "";
     display: table;
@@ -166,9 +174,6 @@
 
 /********YOUTUBE OG REVIEWS**********/
 
-#youtube-reviews{
-    background: #99D2DE;
-}
 #youtube-reviews h2{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
