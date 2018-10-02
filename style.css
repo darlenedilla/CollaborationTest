@@ -518,75 +518,16 @@ footer p{
 .newsbox {
     position: absolute;
     width: 100vw;
-    height: 250px;
+    height: 60px;
     border: 1px solid;
     bottom: 0;
     margin-left: 1px;
 }
 
 /* Placering og redigering af logoerne til social media*/
-#tv2fyn {
-  float: left;
 
-}
-
-#udogse {
-float: left;
-
-}
-
-#moot {
-float: left;
-
-}
-
-
-#veckans {
-float: left;
-
-}
-
-#breakit {
-float: left;
-
-}
-
-#ottetillfem {
-float: left;
-
-}
-
-#digital {
-float: left;
-
-}
-
-#boersen {
-float: left;
-
-}
-
-#lokalt {
-float: left;
-
-}
-
-#halla {
-float: left;
-
-}
-
-#sydsvensk {
-float: left;
-
-}
-
-#orobot {
- float: left;
-
-}
-
-#reuma {
-float: left;
-
+.newsicons {
+    float: left;
+    width: 7.6%;
+    padding: 5px;
 }
