@@ -1,11 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Poppins:300');
-
-
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+/* Wrapper */
+.headerwrapper{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.wrapper{
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    height: 100px;
+    left: 0;
+    top: 0;
+    padding: 0;
+    display: block;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    -webkit-overflow-y-scrolling: scroll;
+    -webkit-scroll-behavier: smooth; 
 }
 
 .pages{
@@ -99,6 +119,15 @@
 
   /*************WHAT IS TENDO?****************/
 
+#whatsTendo {
+    background: #707070;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
 .row:after {
     content: "";
     display: table;
@@ -137,6 +166,9 @@
 
 /********YOUTUBE OG REVIEWS**********/
 
+#youtube-reviews{
+    background: #99D2DE;
+}
 #youtube-reviews h2{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
