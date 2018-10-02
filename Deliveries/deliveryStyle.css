@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Poppins:300');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#deliverySheet{
+    width: 600px;
+    height: 600px;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+#procesdocumentation{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
