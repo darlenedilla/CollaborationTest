@@ -51,7 +51,7 @@ body, html{
 }  
 
 .contentwrapper{
-    width: 1224px;
+    width: 100vw;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -496,6 +496,12 @@ footer p{
 /*******GO TO TOP KNAP OG NYHEDSSTRIBE********/
 
 
+.newspage {
+    min-height: 6vh;
+    width: 100%;
+    margin-top: 150px;
+}  
+
 /* Her styles to-top knap */
 .back-to-top {
     position: fixed;   /*Knappen bliver på sin plads */
@@ -505,101 +511,82 @@ footer p{
     z-index: 10;
 }
 
+.newslist {
+    list-style-type: none;
+}
+
+.newsbox {
+    position: absolute;
+    width: 100vw;
+    height: 250px;
+    border: 1px solid;
+    bottom: 0;
+    margin-left: 1px;
+}
 
 /* Placering og redigering af logoerne til social media*/
 #tv2fyn {
-    padding: 0;
-    position: absolute;
-    top: 10%;
-    left: 1em;
+  float: left;
+
 }
 
 #udogse {
-    padding: 0;
-    position: absolute;
-    top: 15%;
-    left: 20em;
+float: left;
+
 }
 
 #moot {
-    padding: 0;
-    position: absolute;
-    top: 13.8%;
-    left: 37.5em;
+float: left;
+
 }
 
+
 #veckans {
-    padding: 0;
-    position: absolute;
-    top: 15.7%;
-    left: 55em;
+float: left;
+
 }
 
 #breakit {
-    padding: 0;
-    position: absolute;
-    top: 18.8%;
-    left: 65em;
+float: left;
+
 }
 
 #ottetillfem {
-    padding: 0;
-    position: absolute;
-    top: 17%;
-    left: 74em;
+float: left;
+
 }
 
 #digital {
-    padding: 0;
-    position: absolute;
-    top: 30%;
-    left: 2em;
+float: left;
+
 }
 
 #boersen {
-    padding: 0;
-    position: absolute;
-    top: 31.5%;
-    left: 14em;
+float: left;
+
 }
 
 #lokalt {
-    padding: 0;
-    position: absolute;
-    top: 31%;
-    left: 26em;
+float: left;
+
 }
 
 #halla {
-    padding: 0;
-    position: absolute;
-    top: 27%;
-    left: 38em;
+float: left;
+
 }
 
 #sydsvensk {
-    padding: 0;
-    position: absolute;
-    top: 30%;
-    left: 50em;
+float: left;
+
 }
 
 #orobot {
-    padding: 0;
-    position: absolute;
-    top: 26%;
-    left: 61.5em;
+ float: left;
+
 }
 
 #reuma {
-    padding: 0;
-    position: absolute;
-    top: 30%;
-    left: 74.5em;
+float: left;
+
 }
-
-
-
-
-
-
