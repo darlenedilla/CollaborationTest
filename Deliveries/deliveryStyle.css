@@ -6,17 +6,62 @@
 }
 
 
-#deliverySheet{
-    width: 600px;
-    height: 600px;
-    background-color: lightgrey;
-    margin: auto;
+.background {
+    display: block;
+    position: relative;
+    background:rgba(255,255,255, 0.7);
+    height: 100vh;
 }
 
-#procesdocumentation{
-    text-decoration: none;
+.background::after{
+    content: "";
+    background:#FFFFFF url("../images/tendoSketches.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#deliverySheet{
+    width: 600px;
+    height: 100vh;
+    background-color:#a9c1cd;
+    margin: auto;
+    text-align: center;
+}
+
+#deliverySheet h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+#deliverySheet h3{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 1em;
 }
+
+
+#deliveryList{
+    list-style-type: none;
+    margin: auto;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.delivery{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+
 

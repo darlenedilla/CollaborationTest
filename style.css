@@ -88,7 +88,6 @@ nav{
     top: 0;
     right: 0;
     height: 70px;
-    z-index: 2;
 }
 
 .soMeContainer ul{
@@ -108,6 +107,7 @@ nav{
     margin-right: 20px;
     color: #ffffff;
     display: inline;
+    z-index: 10;
 }
 
 
