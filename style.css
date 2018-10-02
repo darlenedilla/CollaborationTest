@@ -271,17 +271,18 @@ nav{
 }
 
 .media-wrapper{
-    border: solid 1px #707070;
+    border: solid 1px rgba(155, 211, 223, 0.3);
     height: 300px;
     width: 310px;
     margin: auto;
     display: block;
+    background: rgba(155, 211, 223, 0.3);
 }
 
 #youtube-desc, .review-desc{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 1.0em;
     text-align: justify;
     line-height: 1.6;
     width: 310px;
@@ -431,7 +432,8 @@ nav{
     }
 
     #youtube-desc, .review-desc{
-        width: 500px;
+        width: 490px;
+        margin-left: 4;
     }
 
 }
