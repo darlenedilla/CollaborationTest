@@ -1,0 +1,49 @@
+/*FOOTER START*/
+
+.footerColumn{
+    float: left;
+    width: 33.33%;
+}
+
+#googleMap{
+    width: 225px;
+    height:150px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #99D2DE;
+    height: 200px;
+    width: 100vw;
+    padding-top: 10px;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+footer h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.75em;
+    color: #ffffff;
+    text-align: left;
+    display: block;
+    margin: auto;
+    width: 225px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #ffffff;
+    width: 225px;
+    padding-bottom: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*FOOTER SLUT*/

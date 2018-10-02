@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Poppins:300');
 
-
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,12 +11,13 @@ body, html{
 }
 
 .parallax{
-    background-image: url("robotinhand.jpg");
-    height: 100%;
+    background-image: url("images/robotinhand.jpg");
+    height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.5;
 }
 
 /* Wrapper */
@@ -30,6 +29,88 @@ body, html{
     z-index: 2;
 }
 
+/*NAVIGATIONSBAR*/
+
+#logo{
+    height: 90px;
+    width: 242px;
+}
+
+nav{
+    background-color: #99D2DE;
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    height: 100px;
+}
+
+.menubox {
+    float: right;
+    padding-right: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menubox ul{
+    list-style-type: none;
+}
+
+.menu {
+    color: #ffffff;
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.menuli{
+    float:left;
+}
+
+/* Change background on mouse-over */
+.menu:hover {
+  background: #ee7e32;
+  opacity: 0.5;
+}
+
+.navlogo {
+  float: left;
+}
+
+.soMeContainer{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 70px;
+    z-index: 2;
+}
+
+.soMeContainer ul{
+    list-style-type: none;
+}
+
+.soMeContainer li{
+    display: inline;
+}
+
+.soMeAnchor{
+    text-decoration: none;
+}
+
+.social i {
+    font-size: 200%;
+    margin-right: 20px;
+    color: #ffffff;
+    display: inline;
+}
+
+
 .wrapper{
     width: 100vw;
     max-width: 100%;
@@ -38,11 +119,6 @@ body, html{
     left: 0;
     top: 0;
     padding: 0;
-    display: block;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    -webkit-overflow-y-scrolling: scroll;
-    -webkit-scroll-behavier: smooth; 
 }
 
 .pages{
@@ -210,8 +286,6 @@ body, html{
     padding: 8px;
 }
 
-
-
 .review-caption{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -229,6 +303,11 @@ body, html{
 
 .reviews{
     display: none;
+}
+
+
+#youtube-reviews{
+    height: 120%;
 }
 
 /*********HOW TO GET IT*********/
@@ -290,6 +369,7 @@ body, html{
     font-size: 4em;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 70px;
 }
 
 #tendoTeam img{
@@ -297,6 +377,7 @@ body, html{
     height: 375px;
     display:block;
     margin: auto;   
+    margin-top: 70px;
 }
 
 #tendoTeam{
@@ -317,7 +398,7 @@ body, html{
     width: 180px;
     height: 190px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 70px;
     display: block;
     opacity: 0.35;
 }
@@ -359,85 +440,49 @@ body, html{
 
 }
 
-/********HEADER OG FOOTER*********/
 
 
-/*NAV START*/
-	/* Add a blue background color to the top navigation */
-.topnav {
-  background-color: #99D2DE;
-  overflow: hidden;
-  display: block;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
+/*******GO TO TOP KNAP********/
+
+/* Her styles to-top knap */
+.back-to-top {
+    position: fixed;   /*Knappen bliver på sin plads */
+    bottom: 1.7em;
+    right: 1em;
+    display: none;
+    z-index: 10;
 }
 
-#logo{
-    width: 420px;
-    height: 150px;
-    margin-top: 10px;
+/*******GO TO TOP KNAP OG NYHEDSSTRIBE********/
+
+.newspage {
+    min-height: 8vh;
+    width: 100%;
+    margin-top: 150px;
+}  
+
+
+.newslist {
+    list-style-type: none;
 }
 
-	/* Style the links inside the navigation bar */
-.menu {
-  color: #ffffff;
-  font-family: 'Poppins';
-  text-align: center;
-  padding: 7px;
-  text-decoration: none;
-  font-size: 22px;
-  margin-right: 20px;
-  float: right;
-  margin-top: 120px;
+.newsbox {
+    position: absolute;
+    width: 100vw;
+    height: 60px;
+    bottom: 0;
+    margin-left: 1px;
 }
 
-	/* */
-.menubox {
-  float: right;
-	padding-bottom: 20px;
-	padding-right: 20px;
-}
+/* Placering og redigering af logoerne til social media*/
 
-/* Change background on mouse-over */
-.menu:hover {
-  background: #ee7e32;
-  opacity: 0.5;
-}
-
-.navlogo {
-  float: left;
-}
-
-.soMeContainer {
-  position: absolute;
-  right: 20px;
-  margin: 20px;
+.newsicons {
+    float: left;
+    width: 7.6%;
+    padding: 5px;
 }
 
 
-.social {
-  list-style-type: none;
-  text-align: center;
-}
-
-.social li {
-  display: inline;
-  list-style-type: none;
-}
-
-.soMeAnchor{
-    text-decoration: none;
-}
-
-.social i {
-  font-size: 200%;
-  margin-right: 20px;
-  color: #ffffff;
-  display: inline;
-}
-
-/*NAV SLUT*/
 
 /*FOOTER START*/
 
@@ -488,46 +533,3 @@ footer p{
     margin-right: auto;
 }
 /*FOOTER SLUT*/
-
-
-
-
-
-/*******GO TO TOP KNAP OG NYHEDSSTRIBE********/
-
-
-.newspage {
-    min-height: 6vh;
-    width: 100%;
-    margin-top: 150px;
-}  
-
-/* Her styles to-top knap */
-.back-to-top {
-    position: fixed;   /*Knappen bliver på sin plads */
-    bottom: 1.7em;
-    right: 1em;
-    display: none;
-    z-index: 10;
-}
-
-.newslist {
-    list-style-type: none;
-}
-
-.newsbox {
-    position: absolute;
-    width: 100vw;
-    height: 60px;
-    border: 1px solid;
-    bottom: 0;
-    margin-left: 1px;
-}
-
-/* Placering og redigering af logoerne til social media*/
-
-.newsicons {
-    float: left;
-    width: 7.6%;
-    padding: 5px;
-}
