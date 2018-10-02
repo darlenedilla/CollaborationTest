@@ -22,7 +22,7 @@ body, html{
 
 /* Wrapper */
 .headerwrapper{
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
@@ -41,7 +41,7 @@ nav{
     overflow: hidden;
     display: block;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 2;
     height: 100px;
 }
@@ -83,7 +83,7 @@ nav{
 }
 
 .soMeContainer{
-    width: 200px;
+    width: 155px;
     position: absolute;
     top: 0;
     right: 0;
@@ -105,7 +105,7 @@ nav{
 }
 
 .social i {
-    font-size: 200%;
+    font-size: 160%;
     margin-right: 20px;
     color: #ffffff;
     display: inline;
@@ -139,12 +139,13 @@ nav{
 
 /*************PICTURE CAROUSEL****************/
 
-.caroImage{
+.carouselImage{
     width: 100vw;
     height: 93vh;
+    opacity: 0.7;
 }
 
-.dot-container{
+.dot-container, .dot-container1{
     text-align: center;
 }
 
@@ -168,26 +169,22 @@ nav{
 .myImages {
     display: none;
 }
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
   
 
   /* The dots/bullets/indicators */
-.dot {
+.dot, .dot1{
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 18px 2px 0 2px;
+    margin: 10px 2px 0 2px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
+
   
-  .active, .dot:hover {
+  .active, .dot:hover, .dot1:hover {
     background-color: #ee7e32;
   }
   
