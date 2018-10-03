@@ -37,7 +37,7 @@ body, html{
 }
 
 nav{
-    background-color: #99D2DE;
+    background-color: #a9c1cd;
     overflow: hidden;
     display: block;
     position: fixed;
@@ -493,7 +493,7 @@ nav{
 }
 
 footer {
-    background-color: #99D2DE;
+    background-color: #a9c1cd;
     height: 200px;
     width: 100vw;
     padding-top: 10px;
